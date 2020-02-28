@@ -732,6 +732,11 @@ var Imports = new[] {
 	new { Method = "void FPDFPage_InsertClipPath(FPDF_PAGE page, FPDF_CLIPPATH clipPath)",
 		  AccessModifier = "public",
 		  Documentation = new string[] { },
+		  Attributes = new string[] { } },
+
+	new { Method = "int FPDFPage_GetAnnotCount(FPDF_PAGE page)",
+		  AccessModifier = "public",
+		  Documentation = new string[] { },
 		  Attributes = new string[] { } }
 };
 // --------------------------------------------------------- Code End ----------------------------------------------------- #>
